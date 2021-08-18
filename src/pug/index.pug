@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Raj Shah
+        title Nirav Patel
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Raj Shah
+                span.d-block.d-lg-none Nirav Patel
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
@@ -60,22 +60,20 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Raj 
-                        span.text-primary Shah
+                        | Nirav 
+                        span.text-primary Patel
                     .subheading.mb-5
-                        | Raleigh, NC · (603) 921-9526 · 
-                        a(href='mailto:rshah28@ncsu.edu', target='_blank') rshah28@ncsu.edu
+                        | Raleigh, NC · (973) 420-0506 · 
+                        a(href='mailto: nkpatel8@ncsu.edu', target='_blank') nkpatel8@ncsu.edu
                     p.lead.mb-5
-                        | Graduate student in Computer Science at <a href="https://www.csc.ncsu.edu/" target="_blank">North Carolina State University</a> (Graduating Summer 2022). <br> Previously Software Engineer at <a href="https://www.ge.com" target="_blank">GE</a>.
+                        | Graduate student in Computer Science at <a href="https://www.csc.ncsu.edu/" target="_blank">North Carolina State University</a> (Graduating Summer 2022). <br> Previously Software Engineer at <a href="https://www.juniper.net/" target="_blank">Juniper Networks</a>.
                     .social-icons
-                        a.social-icon(href='https://www.linkedin.com/in/shahrk97/', target='_blank')
+                        a.social-icon(href='https://www.linkedin.com/in/nirav1929/', target='_blank')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='assets/resume.pdf', target='_blank')
                             i.far.fa-file
-                        a.social-icon(href='https://github.com/shahrk', target='_blank')
+                        a.social-icon(href='https://github.com/nirav1929', target='_blank')
                             i.fab.fa-github
-                        a.social-icon(href='https://twitter.com/rajshah_06', target='_blank')
-                            i.fab.fa-twitter
 
             hr.m-0
 
@@ -86,74 +84,57 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Research Programmer
+                            h3.mb-0 Software Engineering Intern
                             .subheading.mb-3 North Carolina State University
                             ul
                                 li
-                                    | SimStudent is an ML-agent used as a synthetic tutee for students to learn by teaching.
+                                    | Designed graph schema for the GHCN-D climate dataset and automated building Neo4j graph database in aws. Benchmarked performance, scaling and cost of maintaining the database.
                                 li
-                                    | Worked on making SimStudent available on the web by transforming the existing java based desktop application to a web based application using Spring Boot, Angular & MySQL.
+                                    | Designed Schema for GHCN-D dataset for AWS DynamoDB. Created AWS cloudformation stack consisting s3, lambda and sqs to build database in dynamoDB directly from csv file. Compared the benchmarking results of DynamoDB to Neo4j.
                                 li 
-                                    | Made it support concurrent users and implemented service for health checking servers and routing users to appropriate servers (as routing needed to be sticky).
+                                    | Created GraphQL API using Grandstack and HTTP API to access Neo4j database.
+                                li 
+                                    | Performed exploratory data analysis of the database in python and different visualization in tableau. 
                         .flex-shrink-0
-                            span.text-primary January 2021 - Present
+                            span.text-primary May 2021 - Present
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Software Engineer
-                            .subheading.mb-3 General Electric (GE)
+                            h3.mb-0 Software Engineer 2
+                            .subheading.mb-3 Juniper Networks
                             ul
                                 li 
-                                    | Developed an application that models cost of service agreements between GE and wind farm owners. Technologies used: Spring Boot, Angular, Node and other AWS services
+                                    | Worked on enhancing multicast snooping functionality over multiple platforms - routers and switches running JUNOS operating system. Worked closely with Juniper customers to resolve various issues concerned with memory management, scheduling, threading, snooping behaviour in network running different protocols such as  EVPN, H-VPLS,EVPN, pim, igmp, mld,bgp
                                 li 
-                                    | Setup OAuth2 authentication and authorization for the cost modelling application
+                                    | Worked on makefile for migrating multicast snooping process from JUNOS(BSD based Juniper OS) to EVO(Linux based Juniper OS). Resolved various cyclic dependencies and undefined symbols as the code span over million lines of code.
                                 li 
-                                    | Created a reverse proxy service using Node that acted as an entrypoint for incoming requests
-                                li 
-                                    | Developed Raven, a service for sending targeted email, text message and push notifications based on user location. Technologies used: Spring Boot, RabbitMQ, UrbanAirShip
-                                li
-                                    | Dockerized local development setup and automated deployment using Jenkins
-                                li 
-                                    | Created generic CRUD API to enable dynamic crud operations without any boiler plate (used for prototyping)
-                                li 
-                                    | Led migration from Cloud Foundry to AWS, as well as efforts for refactoring and performance optimization
+                                    | Developed a feature to read traffic statistics from PFE and showing traffic summary in UI at RE level.
+                               
                         .flex-shrink-0
-                            span.text-primary June 2018 - October 2020
+                            span.text-primary June 2018 - December 2020
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Software Engineer Intern 
-                            .subheading.mb-3 General Electric (GE)
+                            .subheading.mb-3 Juniper Networks
                             ul
                                 li
-                                    | Developed a notification system for handling push notifications. Technologies used: JavaScript, NodeJs, Express, Spring Boot
+                                    | Developed robust test scripts verifying BUM traffic for  multicast snooping daemon running evpn on QFX series platform using Spirent and robot framework
                                 li 
-                                    | Handled the end to end development of a product catalog web app. Technologies used: Angular 6, NodeJS, Express
+                                    | Built different network topologies and automated testing of multicast snooping in different types of routing instance running  protocols such as ospf, bgp, igmp, pim, p2mp, vpls
                         .flex-shrink-0
-                            span.text-primary January 2018 - Mat 2018
+                            span.text-primary January 2018 - May 2018
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Teaching Assistant
+                            h3.mb-0 Research intern
                             .subheading.mb-3 DAIICT
                             ul 
                                 li 
-                                    | Teaching assistant for Study Hours of Data Structure and Algorithms
-                                li 
-                                    | Worked with students who lagged behind in studies towards improving their grades by helping them with assignments, revisiting abstruse topics and solving doubts
+                                    | Manageed to get 93% accuracy to mark the attendance using an image of a classroom. Used Haarcascade classifier and adaboost to detect the faces and CNN to recognize the face
+                              
                         .flex-shrink-0
-                            span.text-primary June 2017 - December 2017
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Research Assistant
-                            .subheading.mb-3 DAIICT
-                            ul 
-                                li 
-                                    | Created Python script for collecting, cleaning and processing more than 10 Million tweets
-                                li 
-                                    | Determined factors with positive correlation such as influence factor (number of followers), trending factor (google trends score), sentiment (using naive bayes), time of tweet
-                        .flex-shrink-0
-                            span.text-primary April 2017 - May 2017
+                            span.text-primary May 2017 - August 2017
 
             hr.m-0
 
@@ -166,8 +147,8 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 North Carolina State University
                             .subheading.mb-3 Masters of Computer Science
-                            div Courses Taken - Computer & Network Security, DBMS, Automated Learning and Data Analysis, Software Engineering, Design & Analysis of Algorithms
-                            p GPA: 4.00
+                            div Coursework - Automated Learning and Data Analysis, Neural Networks and Deep Learning, Database Management System, Graph Data Mining, Software Engineering, Design and Analysis of Algorithms
+                            p GPA: 4.0/4.0
                         .flex-shrink-0
                             span.text-primary January 2021 - Present (Expected Gradudation: May 2022)
 
@@ -175,8 +156,8 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 Dhirubhai Ambani Institute of Information & Communication Technology
                             .subheading.mb-3 Bachelors of Technology in Computer Science
-                            div Courses Taken - Operating Systems, Computer Networks, Database Systems, System Software, Object Oriented Programming
-                            p GPA: 8.19
+                            div Coursework - Neural Networks, Computer vision, Information retrieval , Computational data science and analytic, Data mining and warehousing, Internet of things
+                            p GPA: 7.6/10.0
                         .flex-shrink-0
                             span.text-primary August 2014 - May 2018
 
@@ -196,44 +177,26 @@ html(lang='en')
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | Spring Boot
-                                <img src="assets/img/spring.png" width="45" height="45"/>
-                        li.list-inline-item
-                            div.tooltip.list-inline-item
-                                span.tooltiptext
-                                    | JavaScript
-                                i.fab.fa-js-square
-                        li.list-inline-item
-                            div.tooltip.list-inline-item
-                                span.tooltiptext
-                                    | Angular
-                                i.fab.fa-angular
-                        li.list-inline-item
-                            div.tooltip.list-inline-item
-                                span.tooltiptext
-                                    | SQL
-                                i.fas.fa-database
-                        li.list-inline-item
-                            div.tooltip.list-inline-item
-                                span.tooltiptext
-                                    | NodeJS
-                                i.fab.fa-node-js
-                        li.list-inline-item
-                            div.tooltip.list-inline-item
-                                span.tooltiptext
                                     | Python
                                 i.fab.fa-python
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | GoLang
-                                <img src="assets/img/go.png" width="50" height="45"/>
+                                    | C
+                            <img src="assets/img/C_icon.png" width="45" height="45"/>  
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | React
-                                i.fab.fa-react
-                    .subheading.mb-3 Tools (Software & Libraries)
+                                    | SQL
+                            <img src="assets/img/sql.png" width="45" height="45"/>  
+                        li.list-inline-item
+                            div.tooltip.list-inline-item
+                                span.tooltiptext
+                                    | Cypher
+                            <img src="assets/img/Cypher_icon.png" width="45" height="45"/>  
+                                                                                                                
+
+                    .subheading.mb-3 Tools and Technologies
                     ul.list-inline.dev-icons
                         li.list-inline-item
                             div.tooltip.list-inline-item
@@ -248,18 +211,18 @@ html(lang='en')
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | Redis
-                                <img src="assets/img/redis.png" width="45" height="45"/>
+                                    | Neo4j
+                                <img src="assets/img/neo4j.png" width="45" height="45"/>
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | Jenkins
-                                i.fab.fa-jenkins
+                                    | Tableau
+                                <img src="assets/img/tableau.png" width="45" height="45"/>
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | Postman
-                                <img src="assets/img/postman.png" width="50" height="50"/>
+                                    | Robot Framework
+                                <img src="assets/img/robot.png" width="50" height="50"/>
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
@@ -268,31 +231,47 @@ html(lang='en')
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | Bootstrap
-                                i.fab.fa-bootstrap
+                                    | Spirent
+                                <img src="assets/img/spirent.png" width="60" height="50"/>
                         li.list-inline-item
                             div.tooltip.list-inline-item
                                 span.tooltiptext
-                                    | Gulp
-                                i.fab.fa-gulp
-                    .subheading.mb-3 Other
+                                    | Spring Boot
+                                <img src="assets/img/spring.png" width="45" height="45"/>
+                    .subheading.mb-3 Libraries
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | PostgreSQL
+                            | Keras
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | MongoDB
+                            | Tensorflow
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | RabbitMQ
+                            | Pandas
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | JMeter
+                            | Pytorch
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Numpy
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Sklearn
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | OpenCV
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Seaborn
 
             hr.m-0
 
@@ -301,9 +280,9 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Interests
                     p
-                        | Apart from being a software engineer, I enjoy playing tennis, swimming, hiking, rock climbing, and reading books. I also like to play Dota occasionally.
+                        | I love playing sports. I am a good chess, badminton and cricket player. On weekends I love binge watching TV shows. And I am always up for hiking.
                     p.mb-0
-                        | I spend a large amount of my free time exploring the latest technology advancements in the software world and am really interested in system design. I am also interested in finance and economics. I have been recently exploring the crypto DeFi space as it is at the intersection of my interests of finance, economics and software. 
+                        | I consider myself enthusiastic data scientist and I spend good amount of time learning concepts and reading new algorithms/technologies coming out in the constantly changing world. 
 
             hr.m-0
 
@@ -314,14 +293,9 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            .subheading.mb-3 <a href="https://github.com/shahrk/basic-rate-limiter" target="_blank">API Rate Limiter</a>
+                            .subheading.mb-3 <a href="https://github.com/shahrk/basic-rate-limiter" target="_blank">Google Landmark Recognition</a>
                             p 
-                                |  An API rate limiter developed in NodeJS using Express and Redis
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
-                        .flex-grow-1
-                            .subheading.mb-3 <a href="https://raj-chatroom.herokuapp.com/" target="_blank">Chat Room Application</a>
-                            p 
-                                | A real time chat room application using Spring Boot, Web Sockets and RabbitMQ
+                                |  Built a deep learning model to recognize a landmark given an image. Used pretrained resnet101 as a backbone architecture and used transfer learning to train fully connected neural network. Compared results of this model with different loss functions such as cross entropy loss, arcface and triplet loss.
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
                             .subheading.mb-3 <a href="https://github.com/shahrk/wolfWr-backend" target="_blank">Big Box Retailer Database Service</a>
@@ -329,24 +303,26 @@ html(lang='en')
                                 | Designed and implemented a database service for a Costco like store using MariaDB & Spring Boot. Performed partitioning, indexing, and query optimizations to improve performance
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            .subheading.mb-3 <a href="https://github.com/shahrk/graft" target="_blank">GRaft</a>
+                            .subheading.mb-3 <a href="https://raj-chatroom.herokuapp.com/" target="_blank">Summarization of tweets</a>
                             p 
-                                | Developed a raft based distributed Key Value store in Go, did a manual implementation of raft instead of using an existing library
+                                | Developed a model to give a summary of people's view on twitter given a hashtag. Created the dataset by randmoly selecting trending hashtags using twitter APIs. Used text mining methods to clean the dataset. Implemented modified tf-idf algorithm and K means to get the summary.
+
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            .subheading.mb-3 <a href="https://github.com/shahrk/casper-frontend" target="_blank">Casper Game</a>
+                            .subheading.mb-3 <a href="https://github.com/shahrk/graft" target="_blank">Human Activity Recognition</a>
                             p 
-                                | Web based flappy bird like game with social media login and leaderboards developed using JavaScript, SpringBoot & Redis
+                                | Given a time series data of accelerometer and gyroscope values, implemented different  models to predict correct activity label. Compared results of classical models such as SVM, XGBoost, bagging classifier, LSTM, Bidirectional LSTM and CNN-LSTM after extracting handmade features. Achieved a F1-score of 92\% on a highly imbalance test set.
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            .subheading.mb-3 Non Volatile Virtual File System
+                            .subheading.mb-3 <a href="https://github.com/shahrk/casper-frontend" target="_blank">Protein sequence prediction</a>
                             p 
-                                | A Java FAT file system made using File Allocation Table and File Entry Table
-                    .d-flex.flex-column.flex-md-row.justify-content-between
+                                | Used Machine Learning algorithms to predict the type of protein. Implemented and compared different neural network \newline classification methods MLP, RBF, MRAN in MATLAB
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
-                            .subheading.mb-3 Smart Tic-Tac-Toe
+                            .subheading.mb-3 Smart traffic signal
                             p 
-                                | A Tic-Tac-Toe game engine that never loses. Developed using minimax and optimized using alpha-beta pruning
+                                | Built a traffic signal system to compute the timer value of the signal based on the number of vehicles on each side of the signal. Used edge detection and background subtraction algorithm for counting the number %of vehicles from the image taken by raspberry pie.
+
 
             // Contact
             section#contact.resume-section
@@ -355,16 +331,12 @@ html(lang='en')
                     p 
                         | If you liked my work or have queries about any of my projects, you can reach out to me via email or DM me on Twitter. If you'd like to contribute to any of my projects you can simply open an issue on GitHub.
                     i.fab.fa-github
-                    a(href='https://github.com/shahrk', target='_blank')
-                        | shahrk
-                    br
-                    i.fab.fa-twitter
-                    a(href='https://twitter.com/rajshah_06', target='_blank')
-                        | rajshah_06
+                    a(href='https://github.com/nirav1929', target='_blank')
+                        | nirav1929
                     br
                     i.far.fa-envelope
-                    a(href='mailto:rshah28@ncsu.edu', target='_blank')
-                        | rshah28@ncsu.edu
+                    a(href='mailto:nkpatel8@ncsu.edu', target='_blank')
+                        | nkpatel8@ncsu.edu
                     
 
         // Bootstrap core JS
